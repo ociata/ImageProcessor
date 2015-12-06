@@ -23,5 +23,5 @@ sips -Z $XHSIZEI $ORIGIMAGE --out "$OUTPUT_DIR/$IMAGE_NAME@2x_xhdpi.$2"
 echo "create @1x_mdpi image(1/3 of original image sige)"
 MSIZEF=$(expr $3 / 3)
 MSIZEI=${MSIZEF%.*}
-sips -Z $MSIZEI format $ORIGIMAGE --out "$OUTPUT_DIR/$IMAGE_NAME@1x_xhdpi.$2" 
+sips -Z $MSIZEI format $ORIGIMAGE --out "$OUTPUT_DIR/$IMAGE_NAME@1x_mdpi.$2" 
 
